@@ -1,0 +1,30 @@
+syntax = "proto3";
+option go_package = "./";
+package user;
+
+service User {
+  //rpc to generate block from email
+  rpc GetDetails (UserRequest) returns (UserResponse) {}
+
+  //rpc to login to website
+  rpc Login (WebUrl) returns (AppResponse) {}
+
+}
+
+
+message UserRequest {
+  string email = 1;
+}
+
+message UserResponse{
+  string ok = 1;
+}
+
+message WebUrl {
+  string url = 1;
+  string aid = 2;
+}
+
+message AppResponse {
+  string res = 1;
+}

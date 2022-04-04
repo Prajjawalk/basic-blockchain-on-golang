@@ -1,0 +1,15 @@
+=============== May 6, 2021 (IST) ===============
+00:37:24.391410 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:37:24.463634 db@open opening
+00:37:24.471687 version@stat F·[] S·0B[] Sc·[]
+00:37:24.481155 db@janitor F·2 G·0
+00:37:24.481389 db@open done T·17.5569ms
+=============== May 6, 2021 (IST) ===============
+11:02:01.464488 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:02:01.475766 version@stat F·[] S·0B[] Sc·[]
+11:02:01.476467 db@open opening
+11:02:01.477070 journal@recovery F·1
+11:02:01.480262 journal@recovery recovering @1
+11:02:01.483634 version@stat F·[] S·0B[] Sc·[]
+11:02:01.556467 db@janitor F·2 G·0
+11:02:01.556561 db@open done T·80.0098ms
